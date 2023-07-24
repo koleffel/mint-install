@@ -1,0 +1,85 @@
+01 - REMOVE packages
+
+mint-background*
+simple-scan
+hexchat
+transmission
+webapp-manager
+libreoffice*
+celluloid
+hypnotix
+drawing
+
+02- INSTALL - flatpaks
+
+KDENLIVE 
+flatpak install flathub org.kde.kdenlive
+
+obs-studio
+flatpak install flathub com.obsproject.Studio
+
+brave browser
+flatpak install flathub com.brave.Browser
+
+qbittorrent
+flatpak install flathub org.qbittorrent.qBittorrent
+
+onlyoffice
+flatpak install flathub org.onlyoffice.desktopeditors
+
+gimp
+flatpak install flathub org.gimp.GIMP
+
+spotify
+flatpak install flathub com.spotify.Client
+
+telegram
+flatpak install flathub org.telegram.desktop
+
+viber
+flatpak install flathub com.viber.Viber
+
+Install from APT
+
+git
+simplescreenrecorder
+sublime
+vlc
+
+
+03-wine-staging
+
+sudo dpkg --add-architecture i386
+
+sudo mkdir -pm755 /etc/apt/keyrings
+
+sudo wget -O /etc/apt/keyrings/winehq-archive.key https://dl.winehq.org/wine-builds/winehq.key
+
+sudo wget -NP /etc/apt/sources.list.d/ https://dl.winehq.org/wine-builds/ubuntu/dists/jammy/winehq-jammy.sources
+
+sudo apt update
+
+sudo apt install --install-recommends winehq-staging
+
+
+04-gaming-steam/lutris
+
+STEAM
+sudo wget https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
+
+cd Downloads/
+
+sudo dpkg -i steam_latest.deb
+
+
+Lutris
+flatpak install flathub net.lutris.Lutris
+
+05-browsers
+chromium
+vivaldi
+chrome
+brave
+opera??
+EDGE ???
+
