@@ -1,5 +1,11 @@
 #!/bin/bash
 
+###########################################################
+##########  Created by KOLEFELL ###########################
+########## e-mail : kolefell@proton.me ####################
+###########################################################
+
+
 
 sudo apt remove mint-background* -y
 
@@ -25,5 +31,9 @@ sudo apt remove -y drawing
 sudo apt autoremove -y
 
 sudo apt update
+
+
+echo " Finished Removing / Cleaning The Apps !!! "
+
 
 
