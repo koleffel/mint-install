@@ -1,5 +1,10 @@
 #!/bin/bash
 
+###########################################################
+##########  Created by KOLEFELL ###########################
+########## e-mail : kolefell@proton.me ####################
+###########################################################
+
 #Install CHROMIUM
 
 flatpak install flathub org.chromium.Chromium -y
@@ -30,3 +35,4 @@ sudo dpkg -i vivaldi-stable*
 
 sudo apt update 
 
+echo " All the Wanted Browsers Are Now Installed !!! "
