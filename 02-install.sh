@@ -1,5 +1,11 @@
 #!/bin/bash/
 
+###########################################################
+##########  Created by KOLEFELL ###########################
+########## e-mail : kolefell@proton.me ####################
+###########################################################
+
+
 # KDENLIVE
 flatpak install flathub org.kde.kdenlive -y
 
@@ -30,6 +36,12 @@ flatpak install flathub com.viber.Viber -y
 #sublime
 flatpak install flathub com.sublimetext.three -y
 
+#blender
+flatpak install flathub org.blender.Blender -y 
+
+#handbrake
+flatpak install flathub fr.handbrake.ghb -y
+
 # Installing from APT
 
 #git
@@ -40,6 +52,8 @@ sudo apt install simplescreenrecorder -y
 
 #vlc
 sudo apt install vlc -y
+
+echo " Finished Installing Software !!! "
 
 
 
