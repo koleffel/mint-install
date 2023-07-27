@@ -1,5 +1,10 @@
 #!/bin/bash/
 
+###########################################################
+##########  Created by KOLEFELL ###########################
+########## e-mail : kolefell@proton.me ####################
+###########################################################
+
 sudo dpkg --add-architecture i386
 
 sudo mkdir -pm755 /etc/apt/keyrings
@@ -12,4 +17,4 @@ sudo apt update
 
 sudo apt install --install-recommends winehq-staging -y
 
-
+echo " Finished Installing Wine-Staging !!! "
