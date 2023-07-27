@@ -1,5 +1,11 @@
 #!/bin/bash/
 
+
+###########################################################
+##########  Created by KOLEFELL ###########################
+########## e-mail : kolefell@proton.me ####################
+###########################################################
+
 #### STEAM from official steam page
 
 sudo wget https://cdn.cloudflare.steamstatic.com/client/installer/steam.deb
@@ -16,3 +22,4 @@ sudo dpkg -i steam*
 flatpak install flathub net.lutris.Lutris -y
 
 
+echo " Steam and Lutris Are Installed Now !!! "
