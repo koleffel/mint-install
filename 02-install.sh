@@ -1,4 +1,4 @@
-#!/bin/bash/
+#!/bin/bash
 
 ###########################################################
 ##########  Created by KOLEFELL ###########################
@@ -31,16 +31,23 @@ flatpak install flathub com.spotify.Client -y
 flatpak install flathub org.telegram.desktop -y
 
 #viber
-flatpak install flathub com.viber.Viber -y
+#flatpak install flathub com.viber.Viber -y
 
 #sublime
-flatpak install flathub com.sublimetext.three -y
+#flatpak install flathub com.sublimetext.three -y
+
+#VSCode
+flatpak install flathub com.visualstudio.code
 
 #blender
 flatpak install flathub org.blender.Blender -y 
 
 #handbrake
 flatpak install flathub fr.handbrake.ghb -y
+
+### Install FLATSEAL , for Flatpak permissions 
+
+flatpak install flathub com.github.tchx84.Flatseal -y
 
 # Installing from APT
 
@@ -52,6 +59,24 @@ sudo apt install simplescreenrecorder -y
 
 #vlc
 sudo apt install vlc -y
+
+#Sublime-text (from official Website)
+
+wget -qO - https://download.sublimetext.com/sublimehq-pub.gpg | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/sublimehq-archive.gpg > /dev/null
+
+echo "deb https://download.sublimetext.com/ apt/stable/" | sudo tee /etc/apt/sources.list.d/sublime-text.list
+
+sudo apt-get update
+
+sudo apt-get install apt-transport-https -y
+
+
+sudo apt-get install sublime-text -y
+
+#Geany - text editor 
+
+sudo apt install geany geany-plugins -y
+
 
 echo " Finished Installing Software !!! "
 
